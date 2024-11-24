@@ -1,0 +1,3 @@
+﻿  syscmd.cpp
+C:\Users\smh20\source\repos\syscmd\syscmd.cpp(40,91): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  syscmd.vcxproj -> C:\Users\smh20\source\repos\syscmd\x64\Debug\syscmd.exe
