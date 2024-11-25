@@ -1,3 +1,4 @@
 ﻿  syscmd.cpp
-C:\Users\smh20\source\repos\syscmd\syscmd.cpp(40,91): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
-  syscmd.vcxproj -> C:\Users\smh20\source\repos\syscmd\x64\Debug\syscmd.exe
+C:\Users\smh20\user2system\syscmd.cpp(40,91): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  LINK : C:\Users\smh20\user2system\x64\Debug\syscmd.exe not found or not built by the last incremental link; performing full link
+  syscmd.vcxproj -> C:\Users\smh20\user2system\x64\Debug\syscmd.exe
